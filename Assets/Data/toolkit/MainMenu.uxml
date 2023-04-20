@@ -1,0 +1,16 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/Data/toolkit/StyleSheet/Button.uss?fileID=7433441132597879392&amp;guid=8ed4cf5d93429b24b9679ea731811ba1&amp;type=3#Button" />
+    <ui:VisualElement name="Background" style="flex-grow: 1;">
+        <ui:VisualElement name="header" style="height: 20%;">
+            <ui:Label text="PartyGames" display-tooltip-when-elided="true" style="font-size: 100px; -unity-font-style: bold-and-italic;" />
+        </ui:VisualElement>
+        <ui:VisualElement name="body" style="flex-grow: 1;">
+            <ui:VisualElement name="section" style="flex-shrink: 1; width: 20%; flex-grow: 1;" />
+        </ui:VisualElement>
+        <ui:VisualElement name="buttom" style="height: 20%; flex-direction: row; align-items: center; justify-content: flex-start; position: relative; border-top-left-radius: 0; border-bottom-left-radius: 0; border-top-right-radius: 0; border-bottom-right-radius: 0; -unity-slice-left: 0; -unity-slice-top: 0; -unity-slice-right: 0; -unity-slice-bottom: 0; -unity-background-scale-mode: stretch-to-fill; margin-left: 0; margin-right: 0; margin-top: 0; margin-bottom: 0; padding-left: 0; padding-right: 0; padding-top: 0; padding-bottom: 0;">
+            <ui:Button text="Color1" display-tooltip-when-elided="true" name="Color1_btn" style="-unity-text-align: middle-center; width: 150px; height: 50px; border-top-left-radius: 10px; border-bottom-left-radius: 10px; border-top-right-radius: 10px; border-bottom-right-radius: 10px;" />
+            <ui:Button text="Color2" display-tooltip-when-elided="true" name="Color2_btn" style="-unity-text-align: middle-center; width: 150px; height: 50px; border-top-left-radius: 10px; border-bottom-left-radius: 10px; border-top-right-radius: 10px; border-bottom-right-radius: 10px;" />
+            <ui:Button text="Color3" display-tooltip-when-elided="true" name="Color3_btn" style="-unity-text-align: middle-center; width: 150px; height: 50px; border-top-left-radius: 10px; border-bottom-left-radius: 10px; border-top-right-radius: 10px; border-bottom-right-radius: 10px;" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>
